@@ -20,7 +20,7 @@ ldJs("https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js", "fb-ap", !0, "h
 
 	          var e = n.exists() && null != n.val()._view ? n.val()._view : 0,
 	          	i = n.exists() && null != n.val()._dl ? n.val()._dl : 0;
-	          a.classList.contains("p") ? (e > 0 || i > 0) && (a.innerHTML += '<div><div><small>Views</small><span class="vw">' + xAR.nwc(e) + 'x</span></div><div><small>Downloaded</small><span class="dl">' + xAR.nwc(i) + "x</span></div></div>") : a.classList.contains("s") || (i > 0 && (a.insertAdjacentHTML("afterbegin", '<span data-text="' + xAR.abv(i) + '">' + ARtb.firebase.counter.iconDl + '</span>')), e > 0 && (a.insertAdjacentHTML("afterbegin", '<span data-text="' + xAR.abv(e) + '">' + ARtb.firebase.counter.iconView + '</span>')), addCt(a, "s")), "true" == a.getAttribute("data-inc") && (e += 1, s.update({
+	          a.classList.contains("p") ? (e > 0 || i > 0) && (a.innerHTML += '<div><div><small>Views</small><span class="vw">' + xAR.nwc(e) + 'x</span></div><div><small>Downloaded</small><span class="dl">' + xAR.nwc(i) + "x</span></div></div>") : a.classList.contains("s") || (i > 0 && (a.insertAdjacentHTML("afterend", '<div class="iFxd dl"><span data-text="' + xAR.abv(i) + '">' + ARtb.firebase.counter.iconDl + '</span></div>')), e > 0 && (a.insertAdjacentHTML("afterend", '<div class="iFxd vw"><span data-text="' + xAR.abv(e) + '">' + ARtb.firebase.counter.iconView + '</span></div>')), addCt(a, "s")), "true" == a.getAttribute("data-inc") && (e += 1, s.update({
 	          	_view: e
 	          }))
 
