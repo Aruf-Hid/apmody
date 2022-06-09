@@ -9,7 +9,7 @@ if("undefined"!=typeof xAo){/*begin*/
 function ld_Adsense(){var e=document.createElement("script");e.setAttribute("crossorigin","anonymous"),e.async=!0,e.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client="+ARtb.adSense.publisherId;var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t),e.onerror=function(){1==ARtb.antiAdBlock.enable&&adBLockD()}}
 function ld_Analytics(){ldJs("https://www.googletagmanager.com/gtag/js?id="+ARtb.analytics.propertyID,"analytics-js",!0,"body")}
 function ld_Abc(){ldJs(bsRw+"c0ee94325dbc440cd6d1c0585dba00c33808086f/js/anti_boom_click.js","abc-js",!0,"body")}
-function ld_Fbd(){ldJs(bsRw+"f240e45e6f3b94feeb00876f77a2ef1e01440417/js/fb_rtdb.js","fbd-js",!0,"body")}
+function ld_Fbd(){ldJs(bsRw+"39bf981ff1cb187d7aa82a3ceafcb3d437b82329/js/fb_rtdb.js","fbd-js",!0,"body")}
 function ld_Gts(){ldCss(bsRw+"c0ee94325dbc440cd6d1c0585dba00c33808086f/css/translate.css","gts-css",(function(){qSel("#header-icon .headIc").insertAdjacentHTML("afterbegin",'<li id="google_translate_element"/>'),ldJs(bsRw+"c0ee94325dbc440cd6d1c0585dba00c33808086f/js/translate.js","gts-js",!0,"body",(function(){setTimeout((function(){null!=getclass("goog-te-gadget-simple")[0]&&addCt(getclass("goog-te-gadget-simple")[0],"tIc")}),2e3)}))}))}
 
 /*adSense*/1==ARtb.adSense.enable&&("lazy"==ARtb.adSense.loadType?ld_Adsense():"defer"==ARtb.adSense.loadType&&Defer((function(){ld_Adsense()})));
