@@ -9,7 +9,7 @@ ldJs("https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js", "fb-ap", !0, "h
 
     if(ARtb.firebase.counter.enable==1){
     
-	    dD = qSell(".pApGm .iFxd,.pApGm .pAG");
+	    dD = qSell(".pApGm .pThmb>.iFxd,.pApGm .pAG");
 
 	    for(var dB=firebase.database(),n=0;n<dD.length;n++){var i=dD[n],dC=i.getAttribute("data-id");
 
@@ -58,7 +58,7 @@ ldJs("https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js", "fb-ap", !0, "h
 
 if (1 == ARtb.firebase.counter.enable)
 function _CvdAG() {
-	dD = qSell(".pApGm .iFxd,.pApGm .pAG");
+	dD = qSell(".pApGm .pThmb>.iFxd,.pApGm .pAG");
 	for (var e = firebase.database(), a = 0; a < dD.length; a++) {
 		var t = dD[a],
 			n = t.getAttribute("data-id");
