@@ -3,6 +3,8 @@ const bsRw = "https://rawcdn.githack.com/Aruf-Hid/apmody/";
 
 if("undefined"!=typeof xAo){/*begin*/
 
+/*addt*/ldCss(bsRw+"ecb16e7609faf64ba648270f4921a7c83ba7ff71/css/addt.css","addt-css",(function(){ldJs(bsRw+"ecb16e7609faf64ba648270f4921a7c83ba7ff71/js/addt.js","addt-js",!0,"body")}));
+
 /*bkm*/1==ARtb.bookmark.enable&&ldCss(bsRw+"6ba405689168c439f19a26a720fd1fb39f682cbe/css/bkm.css","bkm-css",(function(){ldJs(bsRw+"6ba405689168c439f19a26a720fd1fb39f682cbe/js/bkm.js","bkm-js",!0,"body")}));
 
 /*dAdb*/function adBLockD(){fixedNotif('<div class="snAdB">'+ARtb.antiAdBlock.icon+"<h6>"+ARtb.antiAdBlock.title+"</h6>"+ARtb.antiAdBlock.text+"</div>"),1==ARtb.antiAdBlock.close&&(qSel(".snAdB").innerHTML+='<span id="cnAdb"></span>',getid("cnAdb").addEventListener("click",(function(){addCt(getid("fNtf"),"hidden")})))}
