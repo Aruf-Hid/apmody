@@ -40,4 +40,8 @@ if(null!=qSel(".toTopF")||ARtb.progScrollbar){
 }
 /*end progScrollbar*/
 
+/*No Internet*/
+var n=getid("noInet");null!=n&&(window.addEventListener("offline",(function(){remCt(n,"hidden"),toastNotif("You are <b>Offline</b>")})),window.addEventListener("online",(function(){addCt(n,"hidden"),toastNotif("You are <b>Online</b>")})));
+/*end No Internet*/
+
 /*]]>*/
