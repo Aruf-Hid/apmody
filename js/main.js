@@ -3,7 +3,7 @@ const bsRw = "https://rawcdn.githack.com/Aruf-Hid/apmody/";
 
 if("undefined"!=typeof xAo){/*begin*/
 
-/*addt*/ldCss(bsRw+"1883c18402cf3e1b465b23ab3c48679df0bd416f/css/addt.css","addt-css",(function(){ldJs(bsRw+"ee491a61ac48921c78878141cac70231cde159ab/js/addt.js","addt-js",!0,"body")}));
+/*addt*/ldCss(bsRw+"1f0a8099c517df2898f6bd85eef6fdaa82016e97/css/addt.css","addt-css",(function(){ldJs(bsRw+"634ce9e0e643e9389b79d2ca02c33883ec67f95a/js/addt.js","addt-js",!0,"body")}));
 
 /*bkm*/1==ARtb.bookmark.enable&&ldCss(bsRw+"6ba405689168c439f19a26a720fd1fb39f682cbe/css/bkm.css","bkm-css",(function(){ldJs(bsRw+"4ad6a2a2c04344a3aa65fc1681be0cf4183c639c/js/bkm.js","bkm-js",!0,"body")}));
 
