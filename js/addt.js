@@ -19,15 +19,11 @@ if(null!=qSel(".toTopF")||ARtb.progScrollbar){
       qSel(".toTopF .c").style.strokeDashoffset=100-e;
       var o=window.pageYOffset||document.documentElement.scrollTop,t=qSel(".toTopF");
       if(o>200){
+        addCt(qSel("header"),"ws2");
         addCt(t,"vsbl");
-        if(isMob&&qSel(".bMenu")!=null){
-          qSel(".bMenu").setAttribute("style", "padding-right:75px");
-        }
       }else{
+        remCt(qSel("header"),"ws2");
         remCt(t,"vsbl");
-        if(isMob&&qSel(".bMenu")!=null){
-          qSel(".bMenu").removeAttribute("style");
-        }
       }
 
     }
