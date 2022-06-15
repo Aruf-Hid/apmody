@@ -5,7 +5,10 @@ if(null!=qSel(".toTopF")||ARtb.progScrollbar){
 
   if(ARtb.progScrollbar){qSel("header").classList.add("pgs"),qSel("header").innerHTML+='<div class="hPgCnt"><div class="hPgBar"></div></div>'}
 
+  var preSc=window.pageYOffset;
   window.addEventListener("scroll",(function(){
+    var yOf=window.pageYOffset;preSc>yOf?remCt(qSel('body'),'onSb'):addCt(qSel('body'),'onSb'),preSc=yOf;
+    
     var e;e=(document.body.scrollTop||document.documentElement.scrollTop)/(document.documentElement.scrollHeight-document.documentElement.clientHeight)*100;
 
     if(ARtb.progScrollbar){
