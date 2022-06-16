@@ -49,7 +49,7 @@ if(isIt){
 null==qSel(".arWG")&&qSel(".pEnt").insertAdjacentHTML("afterend",'<div class="arWG"></div>');
 if(qSel(".arWG")!=null){
   if(null!=getid("comment")){if(alwCmn){if(nofCmn>0)var numCmn='data-text="'+xAR.abv(nofCmn)+'" ';else numCmn="";var htmlCmn='<label class="wbCmn" '+numCmn+'for="forComments">'+ic_chat+"</label>"}else htmlCmn="";qSel(".arWG").innerHTML+=htmlCmn}
-  if(null!=qSel(".shBr")){if(alwShr)var htmlShr='<label class="wbShr" for="forShare">'+c_share+"</label>";else htmlShr="";qSel(".arWG").innerHTML+=htmlShr}
+  if(null!=qSel(".shBr")){if(alwShr)var htmlShr='<label class="wbShr" for="forShare">'+ic_share+"</label>";else htmlShr="";qSel(".arWG").innerHTML+=htmlShr}
   if(null!=qSel(".fnB")){var htmlFsz='<label class="wbFsz" for="forFont">'+ic_font+"</label>";qSel(".arWG").innerHTML+=htmlFsz}
   var htmlGret='<span class="wbGret a o" id="ar-Gret">'+ic_smile+"</span>";qSel(".arWG").innerHTML+=htmlGret;var welElem=getid("ar-Gret"),curHr=(new Date).getHours(),welMes=msgWel;let welText="";welText=curHr<4?welMes[0]:curHr<12?welMes[1]:curHr<17?welMes[2]:curHr<19?welMes[3]:curHr<22?welMes[4]:welMes[5],welElem.setAttribute("data-text",welText);
 }
