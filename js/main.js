@@ -3,9 +3,11 @@ const bsRw = "https://rawcdn.githack.com/Aruf-Hid/apmody/";
 
 if("undefined"!=typeof xAo){/*begin*/
 
-/*addt*/ldCss(bsRw+"03d0e282563478d26c0306e98ffa0e35f3251d88/css/addt.css","addt-css",(function(){ldJs(bsRw+"a2f8a34bf0fba9c55b4117b11c337c36c24970d4/js/addt.js","addt-js",!0,"body")}));
+/*addt*/ldCss(bsRw+"d63f5b95c572a244da5dff212d138c138384f1c5/css/addt.css","addt-css",(function(){ldJs(bsRw+"a2f8a34bf0fba9c55b4117b11c337c36c24970d4/js/addt.js","addt-js",!0,"body")}));
 
 /*bkm*/1==ARtb.bookmark.enable&&ldCss(bsRw+"6ba405689168c439f19a26a720fd1fb39f682cbe/css/bkm.css","bkm-css",(function(){ldJs(bsRw+"4ad6a2a2c04344a3aa65fc1681be0cf4183c639c/js/bkm.js","bkm-js",!0,"body")}));
+
+/*rpst*/isPs&&!isPvb&&(null!=getid("aRel")&&ldJs("https://rawcdn.githack.com/Aruf-Hid/apmody/78534fe3f7782f27de06beb71bb4654c1b134292/js/aRel.js","aRel-js",!0,"body"),null!=getid("pPvNx")&&ldJs("https://rawcdn.githack.com/Aruf-Hid/apmody/78534fe3f7782f27de06beb71bb4654c1b134292/js/pPvNx.js","pPvNx-js",!0,"body"));
 
 /*dAdb*/function adBLockD(){fixedNotif('<div class="dtAdB">'+ARtb.antiAdBlock.icon+"<h5>"+ARtb.antiAdBlock.title+"</h5>"+ARtb.antiAdBlock.text+"</div>"),1==ARtb.antiAdBlock.close&&(qSel(".dtAdB").insertAdjacentHTML('afterend','<span class="cls"></span>'),qSel("#fNtf .cls").addEventListener("click",(function(){addCt(getid("fNtf"),"hidden")})))}
 
@@ -28,7 +30,7 @@ function set_hljs(){qSell("pre.hljs").forEach((t=>{hljs.highlightElement(t),null
 
 Defer(function(){
 
-/*hljs*/0<qSell("pre.hljs").length&&null==getid("hl-js")?ldJs(bsRw+"6d3791f51cfcbfe279828ba792a1bb4bbaec8a32/lib/hl-11.5.1.js","hl-js",!0,"body",(function(){set_hljs()})):0<qSell("pre.hljs").length&&null!=getid("hl-js")&&set_hljs();
+/**hljs**/0<qSell("pre.hljs").length&&null==getid("hl-js")?ldJs(bsRw+"6d3791f51cfcbfe279828ba792a1bb4bbaec8a32/lib/hl-11.5.1.js","hl-js",!0,"body",(function(){set_hljs()})):0<qSell("pre.hljs").length&&null!=getid("hl-js")&&set_hljs();
 
 /**abp**/null!=getid("AudioBookPlayer")&&null==getid("vue-js")?ldJs(bsRw+"3eeb1079424754f0be0e6cd60056460dbfb04482/lib/vue-2.6.11.js","vue-js",!0,"body",(function(){ld_Abp()})):null!=getid("AudioBookPlayer")&&null!=getid("vue-js")&&ld_Abp();
 
