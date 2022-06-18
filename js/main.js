@@ -7,7 +7,7 @@ if("undefined"!=typeof xAo){/*begin*/
 
 /*bkm*/1==ARtb.bookmark.enable&&ldCss(bsRw+"6ba405689168c439f19a26a720fd1fb39f682cbe/css/bkm.css","bkm-css",(function(){ldJs(bsRw+"4ad6a2a2c04344a3aa65fc1681be0cf4183c639c/js/bkm.js","bkm-js",!0,"body")}));
 
-/*rpst*/isPs&&!isPvb&&(null!=getid("aRel")&&ldJs(bsRw+"7a09a718fbdb57dda85378b127fe3148318a7085/js/aRel.js","aRel-js",!0,"body"),null!=getid("pPvNx")&&ldJs(bsRw+"78534fe3f7782f27de06beb71bb4654c1b134292/js/pPvNx.js","pPvNx-js",!0,"body"));
+/*rpst*/isPs&&!isPvb&&(null!=getid("aRel")&&ldJs(bsRw+"7a09a718fbdb57dda85378b127fe3148318a7085/js/aRel.js","aRel-js",!0,"body"),null!=getid("pPvNx")&&ldJs(bsRw+"5b478a0487467dfa3a2c5fdd9f110188589c216f/js/pPvNx.js","pPvNx-js",!0,"body"));
 
 /*dAdb*/function adBLockD(){fixedNotif('<div class="dtAdB">'+ARtb.antiAdBlock.icon+"<h5>"+ARtb.antiAdBlock.title+"</h5>"+ARtb.antiAdBlock.text+"</div>"),1==ARtb.antiAdBlock.close&&(qSel(".dtAdB").insertAdjacentHTML('afterend','<span class="cls"></span>'),qSel("#fNtf .cls").addEventListener("click",(function(){addCt(getid("fNtf"),"hidden")})))}
 
